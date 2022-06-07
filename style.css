@@ -9,17 +9,20 @@
   width: 100px;
 }
 
-#evaluation-form {
+main {
   display: flex;
-  width: 675px;
-  flex-direction: column;
-
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
 
-/* .sobrenome {
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
 
-} */
+.trybewarts-login {
+  display: flex;
+}
