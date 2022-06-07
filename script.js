@@ -9,4 +9,4 @@ loginSubmit.addEventListener('click', function loginCheck(event){
     }
     event.preventDefault();
     alert('Email ou senha inválidos');
-})
+});
