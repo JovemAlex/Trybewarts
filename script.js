@@ -9,12 +9,11 @@
 //   return alert('Email ou senha inválidos.');
 // }
 // loginSubmit.addEventListener('click', checkLogin());
-
+// const email = 'tryber@teste.com';
+// const senha = '123456';
 const inputEmail = document.querySelector('#input-email-login');
 const inputPassword = document.querySelector('#input-password');
 const loginSubmit = document.querySelector('#login-btn');
-// const email = 'tryber@teste.com';
-// const senha = '123456';
 const btnCheck = document.querySelector('#submit-btn');
 const checkbox = document.querySelector('#agreement');
 
@@ -30,6 +29,8 @@ loginSubmit.addEventListener('click', login);
 function btn() {
   if (checkbox.checked === true) {
     btnCheck.disabled = false;
+  } else {
+    btnCheck.disabled = true;
   }
 }
 checkbox.addEventListener('click', btn);
