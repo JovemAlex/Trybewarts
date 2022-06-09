@@ -5,42 +5,49 @@ body header {
   justify-content: space-between;
   align-items: center;
 }
+
 /* container de login */
 .trybewarts-login {
   display: flex;
 }
+
 /* main */
 main {
   display: flex;
 }
+
 /* primeiro formulario */
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
 }
+
 /* imagem */
 #trybewarts-forms-logo {
   display: flex;
   height: 500px;
 }
+
 /* radio familia */
 #input-radio {
   display: flex;
   flex-direction: column;
 }
+
 /* o que voce tem mais vontade de aprender */
- #checks {
-   display: flex;
-   flex-wrap: wrap;
-   max-width: 190px;
- }
- /* textarea */
- textarea {
-   resize: none;
- }
- /* botao final */
- #submit-btn {
-   width: 55px;
- }
- 
+#checks {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 190px;
+}
+
+/* textarea */
+textarea {
+  resize: none;
+}
+
+/* botao final */
+#submit-btn {
+  width: 55px;
+}
